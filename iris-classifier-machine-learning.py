@@ -7,7 +7,7 @@ This script trains a machine learning model to classify iris flowers
 based on their physical measurements.
 """
 
-# 🔧 Try to import scikit-learn, if not installed, install it
+# Try to import scikit-learn, if not installed, install it
 try:
     from sklearn.datasets import load_iris
     from sklearn.model_selection import train_test_split
@@ -56,3 +56,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
